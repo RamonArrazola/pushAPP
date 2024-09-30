@@ -1,4 +1,10 @@
 import { Component } from '@angular/core';
+import {
+  ActionPerformed,
+  PushNotificationSchema,
+  PushNotifications,
+  Token,
+} from '@capacitor/push-notifications';
 
 @Component({
   selector: 'app-home',
@@ -8,5 +14,7 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
+
+  
 
 }
